@@ -23,6 +23,11 @@ body {
     margin: 0;
 }
 
+h1, h2, h3, p, ul {
+    margin: 0;
+}
+
+
 img {
     display: block;
 }
@@ -148,6 +153,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .footer {
@@ -247,10 +253,6 @@ img {
     gap: 40px;
 }
 
-h1, h2, h3, p, ul {
-    margin: 0;
-}
-
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -320,4 +322,8 @@ h1, h2, h3, p, ul {
     padding-bottom: 32px;
     border: 1px solid var(--accent-color);
     background: var(--white-color);
+}
+
+.portfolio-item .img-description {
+    padding-left: 16px;
 }
